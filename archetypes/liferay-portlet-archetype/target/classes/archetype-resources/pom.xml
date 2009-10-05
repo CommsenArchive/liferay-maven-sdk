@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>${groupId}</groupId>
+	<artifactId>${artifactId}</artifactId>
+	<packaging>war</packaging>
+	<version>${version}</version>
+	<name>Maven Portlet Archetype</name>
+	<url>http://maven.apache.org</url>
+	<dependencies>
+		<dependency>
+			<groupId>com.commsen.liferay</groupId>
+			<artifactId>liferay-lib</artifactId>
+			<version>5.2.3</version>
+			<scope>provided</scope>
+			<type>pom</type>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.5</source>
+					<target>1.5</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>com.commsen.liferay</groupId>
+				<artifactId>liferay-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>build-service</goal>
+						</goals>
+						<configuration>
+							<serviceDependencies>
+								<dependency>
+									<groupId>com.commsen.liferay.portal.libraries</groupId>
+									<artifactId>util-java</artifactId>
+									<version>5.2.3</version>
+									<scope>provided</scope>
+								</dependency>
+							</serviceDependencies>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

@@ -1,0 +1,80 @@
+/* This CSS sets the default styles for forms. */
+
+fieldset {
+	border: 1px solid #BFBFBF;
+	padding: 8px;
+}
+
+.ie fieldset {
+	padding-top: 0;
+}
+
+legend {
+	font-weight: bold;
+	padding: 0 6px;
+}
+
+input {
+	background: #FFF;
+}
+
+input[type="text"], input[type="password"], input[type="file"],input[type="submit"], input[type="button"], input[type="reset"], select, textarea, .textarea {
+	background-image: url(../images/forms/input_shadow.png);
+	background-repeat: no-repeat;
+	border: 1px solid;
+	border-color: #BFBFBF #DEDEDE #DEDEDE #BFBFBF;
+	font: 1em Arial,Helvetica,Verdana,sans-serif;
+	padding: 5px 1px;
+}
+
+select {
+	padding: 1px;
+}
+
+input[type="image"] {
+	background: transparent none;
+	border: none;
+	padding: 0;
+}
+
+input[type="submit"], input[type="button"], input[type="reset"] {
+	background: #F5F5F5 url(../images/forms/button.png) repeat-x 0 0;
+	border-color: #DEDEDE #BFBFBF #BFBFBF #DEDEDE;
+	color: #34404F;
+	cursor: pointer;
+	font-weight: bold;
+	overflow: visible;
+	padding: 5px;
+	width: auto;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:focus, input[type="button"]:focus, input[type="reset"]:focus {
+	background: #DFF4FF;
+	border: 1px solid #A7CEDF;
+	color: #369;
+}
+
+/* ---------- IE6 chokes on attribute selectors in a chain, so we separate them into their own rule ---------- */
+
+.ie6 input.text, input.password, .ie6 input.submit, .ie6 input.file, .ie6 input.button {
+	background-image: url(../images/forms/input_shadow.png);
+	background-repeat: no-repeat;
+	border: 1px solid;
+	border-color: #BFBFBF #DEDEDE #DEDEDE #BFBFBF;
+	font: 1em Arial,Helvetica,Verdana,sans-serif;
+	padding: 5px 1px;
+}
+
+.ie6 input.submit, .ie6 input.button {
+	background: #F5F5F5 url(../images/forms/button.png) repeat-x 0 0;
+	border-color: #DEDEDE #BFBFBF #BFBFBF #DEDEDE;
+	color: #34404F;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 5px;
+}
+
+input.focus, textarea.focus, .ie6 input.focus, .ie6 textarea.focus {
+	background: #FFC none;
+	border: 1px solid #FC0;
+}

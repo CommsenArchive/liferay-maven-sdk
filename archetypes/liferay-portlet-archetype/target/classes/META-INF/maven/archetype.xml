@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><archetype>
+  <id>portlet</id>
+  <sources>
+    <source>src/main/java/JSPPortlet.java</source>
+  </sources>
+  <resources>
+    <resource>src/main/webapp/view.jsp</resource>
+    <resource>src/main/webapp/icon.png</resource>
+    <resource>src/main/webapp/js/test.js</resource>
+    <resource>src/main/webapp/WEB-INF/portlet.xml</resource>
+    <resource>src/main/webapp/WEB-INF/liferay-display.xml</resource>
+    <resource>src/main/webapp/WEB-INF/web.xml</resource>
+    <resource>src/main/webapp/WEB-INF/liferay-portlet.xml</resource>
+    <resource>src/main/webapp/WEB-INF/liferay-plugin-package.properties</resource>
+    <resource>src/main/webapp/WEB-INF/tld/liferay-portlet.tld</resource>
+    <resource>src/main/webapp/WEB-INF/tld/liferay-portlet-ext.tld</resource>
+    <resource>src/main/webapp/WEB-INF/tld/liferay-security.tld</resource>
+    <resource>src/main/webapp/WEB-INF/tld/liferay-theme.tld</resource>
+    <resource>src/main/webapp/WEB-INF/tld/liferay-ui.tld</resource>
+    <resource>src/main/webapp/WEB-INF/tld/liferay-util.tld</resource>
+    <resource>src/main/webapp/css/test.css</resource>
+  </resources>
+</archetype>

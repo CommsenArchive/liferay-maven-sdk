@@ -1,0 +1,22 @@
+<webapp-structure>
+  <registeredFiles>
+    <entry>
+      <string>currentBuild</string>
+      <path-set>
+        <pathsSet class="linked-hash-set">
+          <string>images/screenshot.png</string>
+          <string>WEB-INF/web.xml</string>
+          <string>css/custom.css</string>
+          <string>css/layout.css</string>
+          <string>css/navigation.css</string>
+          <string>css/portlet.css</string>
+          <string>css/application.css</string>
+          <string>css/forms.css</string>
+          <string>css/main.css</string>
+          <string>css/base.css</string>
+        </pathsSet>
+      </path-set>
+    </entry>
+  </registeredFiles>
+  <dependenciesInfo/>
+</webapp-structure>
