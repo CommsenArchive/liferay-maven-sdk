@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><archetype>
-  <id>theme</id>
-  <resources>
-    <resource>src/main/webapp/WEB-INF/liferay-plugin-package.properties</resource>
-  </resources>
-</archetype>
