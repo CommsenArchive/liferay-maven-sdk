@@ -17,6 +17,27 @@
 			<scope>provided</scope>
 			<type>pom</type>
 		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.4</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.commsen.liferay.portal.libraries</groupId>
+			<artifactId>util-java</artifactId>
+			<version>5.2.3</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>taglibs</groupId>
+			<artifactId>standard</artifactId>
+			<version>1.1.2</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -38,16 +59,6 @@
 						<goals>
 							<goal>build-service</goal>
 						</goals>
-						<configuration>
-							<serviceDependencies>
-								<dependency>
-									<groupId>com.commsen.liferay.portal.libraries</groupId>
-									<artifactId>util-java</artifactId>
-									<version>5.2.3</version>
-									<scope>provided</scope>
-								</dependency>
-							</serviceDependencies>
-						</configuration>
 					</execution>
 				</executions>
 			</plugin>
