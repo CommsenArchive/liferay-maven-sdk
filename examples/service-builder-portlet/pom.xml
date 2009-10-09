@@ -26,11 +26,6 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>util-java</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.1.2</version>
@@ -42,6 +37,45 @@
 		</dependency>
 	</dependencies>
 
+
+	<profiles>
+		<profile>
+			<id>default profile</id>
+			<activation><activeByDefault>true</activeByDefault></activation>
+		</profile>
+		<profile>
+			<id>service builder profile</id>
+			<activation>
+				<file>
+					<exists>src/main/webapp/WEB-INF/service.xml</exists>
+				</file>
+			</activation>
+			<dependencies>
+				<dependency>
+					<groupId>com.commsen.liferay.portal.libraries</groupId>
+					<artifactId>util-java</artifactId>
+					<version>5.2.3</version>
+				</dependency>
+			</dependencies>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>com.commsen.liferay</groupId>
+						<artifactId>liferay-maven-plugin</artifactId>
+						<executions>
+							<execution>
+								<phase>generate-sources</phase>
+								<goals>
+									<goal>build-service</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -52,21 +86,6 @@
 				</configuration>
 			</plugin>
 
-			<plugin>
-				<groupId>com.commsen.liferay</groupId>
-				<artifactId>liferay-maven-plugin</artifactId>
-				<executions>
-					<execution>
-						<phase>generate-sources</phase>
-						<goals>
-							<goal>build-service</goal>
-						</goals>
-						<configuration>
-							<serviceDependencies></serviceDependencies>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
 		</plugins>
 	</build>
 </project>
