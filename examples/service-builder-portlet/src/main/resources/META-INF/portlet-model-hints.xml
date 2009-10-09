@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model-hints>
+	<model name="com.commsen.liferay.examples.portlet.servicebuilder.model.Player">
+		<field name="playerId" type="long" />
+		<field name="name" type="String" />
+		<field name="active" type="boolean" />
+		<field name="score" type="int" />
+		<field name="birthday" type="Date" />
+		<field name="description" type="String" />
+	</model>
+</model-hints>

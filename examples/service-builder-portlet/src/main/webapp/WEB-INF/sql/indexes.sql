@@ -1,0 +1,1 @@
+create index IX_992CA672 on SB_Player (active_);
