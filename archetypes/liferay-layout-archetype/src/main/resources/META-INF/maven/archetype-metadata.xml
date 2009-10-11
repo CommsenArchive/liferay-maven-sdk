@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="theme">
+  <fileSets>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>src/main/webapp</directory>
+      <includes>
+        <include>**/*.xml</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="false" encoding="UTF-8">
+      <directory>src/main/webapp</directory>
+      <includes>
+        <include>**/*.png</include>
+        <include>**/*.tpl</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+</archetype-descriptor>
