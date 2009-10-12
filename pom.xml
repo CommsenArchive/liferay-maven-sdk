@@ -18,6 +18,7 @@
 		<module>themes/classic-liferay-theme</module>
 		<module>archetypes/liferay-portlet-archetype</module>
 		<module>archetypes/liferay-theme-archetype</module>
+		<module>archetypes/liferay-layout-archetype</module>
 		<module>plugins/liferay-maven-plugin</module>
 	</modules>
 </project>
