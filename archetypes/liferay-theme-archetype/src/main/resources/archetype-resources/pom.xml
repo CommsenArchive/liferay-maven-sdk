@@ -53,6 +53,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
 				<configuration>
+					<failOnMissingWebXml>false</failOnMissingWebXml> 
 					<overlays>
 						<overlay>
 							<!-- empty groupId/artifactId is detected as the current build -->

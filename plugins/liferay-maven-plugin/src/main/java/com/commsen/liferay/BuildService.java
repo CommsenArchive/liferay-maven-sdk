@@ -7,7 +7,7 @@ package com.commsen.liferay;
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *      http://www.apache.org/licenses/LICENSE-2.0
+ *	  http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -18,6 +18,7 @@ package com.commsen.liferay;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.FileNotFoundException;
 import java.util.List;
 
 import org.apache.commons.io.FileUtils;
@@ -131,11 +132,56 @@ public class BuildService extends AbstractMojo {
 
 		File srcServiceProperties = new File(srcFolder, "service.properties");
 		File resServiceProperties = new File(resourcesFolder, "service.properties");
-		FileUtils.deleteQuietly(resServiceProperties);
+		BuildService.deleteQuietly(resServiceProperties);
 		try {
-			FileUtils.moveFile(srcServiceProperties, resServiceProperties);
+			BuildService.moveFile(srcServiceProperties, resServiceProperties);
 		} catch (IOException e) {
 			getLog().warn(e);
 		}
 	}
+
+	public static boolean deleteQuietly(File file) {
+		if (file == null) {
+			return false;
+		}
+	
+		try {
+			return file.delete();
+		} catch (Exception e) {
+			return false;
+		}
+   }
+
+	public static void moveFile(File srcFile, File destFile) throws IOException {
+		if (srcFile == null) {
+			throw new NullPointerException("Source must not be null");
+		}
+		if (destFile == null) {
+			throw new NullPointerException("Destination must not be null");
+		}
+		if (!srcFile.exists()) {
+			throw new FileNotFoundException("Source '" + srcFile + "' does not exist");
+		}
+		if (srcFile.isDirectory()) {
+			throw new IOException("Source '" + srcFile + "' is a directory");
+		}
+		if (destFile.exists()) {
+			throw new IOException("Destination '" + destFile + "' already exists");
+		}
+		if (destFile.isDirectory()) {
+			throw new IOException("Destination '" + destFile + "' is a directory");
+		}
+		boolean rename = srcFile.renameTo(destFile);
+		if (!rename) {
+			FileUtils.copyFile( srcFile, destFile );
+			if (!srcFile.delete()) {
+				deleteQuietly(destFile);
+				throw new IOException("Failed to delete original file '" + srcFile +
+						"' after copy to '" + destFile + "'");
+			}
+		}
+	}
+
 }
+
+
