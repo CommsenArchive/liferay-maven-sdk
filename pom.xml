@@ -20,6 +20,7 @@
 		<module>archetypes/liferay-theme-archetype</module>
 		<module>archetypes/liferay-layout-archetype</module>
 		<module>archetypes/liferay-hook-archetype</module>
+		<module>archetypes/liferay-web-archetype</module>
 		<module>plugins/liferay-maven-plugin</module>
 	</modules>
 </project>
