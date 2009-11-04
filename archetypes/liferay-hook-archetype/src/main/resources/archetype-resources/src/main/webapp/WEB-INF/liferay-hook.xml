@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- For the right content of this file see
+    http://www.liferay.com/dtd/liferay-hook_5_1_0.dtd 
+    http://www.liferay.com/dtd/liferay-hook_5_2_0.dtd 
+
+    For the Liferay 5.2.3 use only:
+        <!ELEMENT portal-properties (#PCDATA)>
+         - .properties file should go into the src/main/resources directory
+         - supported keys in the .properties file:
+
+		    "auth.forward.by.last.path",
+		    "captcha.check.portal.create_account",
+		    "default.landing.page.path",
+		    "field.enable.com.liferay.portal.model.Contact.birthday",
+		    "field.enable.com.liferay.portal.model.Contact.male",
+		    "field.enable.com.liferay.portal.model.Organization.status",
+		    "javascript.fast.load",
+		    "layout.static.portlets.all"
+		    "layout.template.cache.enabled",
+		    "layout.user.private.layouts.auto.create",
+		    "layout.user.private.layouts.enabled",
+		    "layout.user.private.layouts.modifiable",
+		    "layout.user.public.layouts.auto.create",
+		    "layout.user.public.layouts.enabled",
+		    "layout.user.public.layouts.modifiable",
+		    "login.create.account.allow.custom.password",
+		    "my.places.show.community.private.sites.with.no.layouts",
+		    "my.places.show.community.public.sites.with.no.layouts",
+		    "my.places.show.organization.private.sites.with.no.layouts",
+		    "my.places.show.organization.public.sites.with.no.layouts",
+		    "my.places.show.user.private.sites.with.no.layouts",
+		    "my.places.show.user.public.sites.with.no.layouts",
+		    "passwords.passwordpolicytoolkit.generator",
+		    "passwords.passwordpolicytoolkit.static"
+		    "terms.of.use.required",
+		    "theme.css.fast.load",
+		    "theme.images.fast.load"
+
+        <!ELEMENT language-properties (#PCDATA)>
+         - .properties file should go into the src/main/resources directory
+        <!ELEMENT custom-jsp-dir (#PCDATA)>
+         - if you specify WEB-INF/your-directory-name then the directory with JSPs should go into the src/main/webapp/WEB-INF/your-directory-name
+        <!ELEMENT model-listener (model-listener-class, model-name)>
+         - the java classes should go into the src/main/java directory
+        <!ELEMENT event (event-class, event-type)>
+         - the java classes should go into the src/main/java directory
+ -->
+<hook>
+</hook>
