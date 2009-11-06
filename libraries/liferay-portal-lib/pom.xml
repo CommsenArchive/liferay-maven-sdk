@@ -6,7 +6,6 @@
 	<groupId>com.commsen.liferay</groupId>
 	<artifactId>liferay-portal-lib</artifactId>
 	<packaging>pom</packaging>
-	<version>5.2.3</version>
 	<name>Liferay portal libraries</name>
 
 	<dependencies>
@@ -3085,4 +3084,11 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<parent>
+		<groupId>com.commsen.liferay</groupId>
+		<artifactId>liferay-maven-sdk</artifactId>
+		<version>5.2.3-r2</version>
+	</parent>
+
 </project>

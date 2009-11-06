@@ -6,7 +6,6 @@
 	<groupId>com.commsen.liferay</groupId>
 	<artifactId>liferay-maven-plugin</artifactId>
 	<packaging>maven-plugin</packaging>
-	<version>5.2.3</version>
 	<name>Liferay maven plugin</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
@@ -18,19 +17,19 @@
 		<dependency>
 			<groupId>com.commsen.liferay</groupId>
 			<artifactId>liferay-lib</artifactId>
-			<version>5.2.3</version>
+			<version>5.2.3-r2</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.commsen.liferay</groupId>
 			<artifactId>liferay-portal-lib</artifactId>
-			<version>5.2.3</version>
+			<version>5.2.3-r2</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.commsen.liferay</groupId>
 			<artifactId>liferay-sdk-lib</artifactId>
-			<version>5.2.3</version>
+			<version>5.2.3-r2</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
@@ -65,5 +64,12 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	<parent>
+		<groupId>com.commsen.liferay</groupId>
+		<artifactId>liferay-maven-sdk</artifactId>
+		<version>5.2.3-r2</version>
+	</parent>
+	
 
 </project>

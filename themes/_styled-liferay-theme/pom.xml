@@ -6,7 +6,11 @@
 	<groupId>com.commsen.liferay.theme</groupId>
 	<artifactId>_styled-liferay-theme</artifactId>
 	<packaging>war</packaging>
-	<version>5.2.3</version>
 	<name>Default _styled Theme</name>
 
+	<parent>
+		<groupId>com.commsen.liferay</groupId>
+		<artifactId>liferay-maven-sdk</artifactId>
+		<version>5.2.3-r2</version>
+	</parent>
 </project>

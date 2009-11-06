@@ -6,7 +6,7 @@
 	<groupId>com.commsen.liferay</groupId>
 	<artifactId>liferay-maven-sdk</artifactId>
 	<packaging>pom</packaging>
-	<version>5.2.3</version>
+	<version>5.2.3-r2</version>
 	<name>Liferay SDK based on Maven2</name>
 	
 	<modules>
