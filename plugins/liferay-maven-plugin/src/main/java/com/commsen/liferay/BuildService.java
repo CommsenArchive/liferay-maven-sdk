@@ -17,8 +17,8 @@ package com.commsen.liferay;
  */
 
 import java.io.File;
-import java.io.IOException;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.List;
 
 import org.apache.commons.io.FileUtils;
@@ -60,32 +60,32 @@ public class BuildService extends AbstractMojo {
 	private List<Dependency> serviceDependencies;
 
 	/**
-	 * @parameter default-value="/src/main/java"
+	 * @parameter default-value="src/main/java"
 	 */
 	private String srcFolderName;
 
 	/**
-	 * @parameter default-value="/src/main/java-service-api"
+	 * @parameter default-value="src/main/java-service-api"
 	 */
 	private String serviceApiFolderName;
 
 	/**
-	 * @parameter default-value="/src/main/resources"
+	 * @parameter default-value="src/main/resources"
 	 */
 	private String resourcesFolderName;
 
 	/**
-	 * @parameter default-value="/src/main/webapp"
+	 * @parameter default-value="src/main/webapp"
 	 */
 	private String webappFolderName;
 
 
 	public void execute() throws MojoExecutionException {
 
-		String webRootFolder = baseDir.getAbsolutePath() + webappFolderName;
-		String srcFolder = baseDir.getAbsolutePath() + srcFolderName;
-		String srcServiceFolder = baseDir.getAbsolutePath() + serviceApiFolderName;
-		String resourcesFolder = baseDir.getAbsolutePath() + resourcesFolderName;
+		String webRootFolder = baseDir.getAbsolutePath() + "/" + webappFolderName;
+		String srcFolder = baseDir.getAbsolutePath() + "/" + srcFolderName;
+		String srcServiceFolder = baseDir.getAbsolutePath() + "/" + serviceApiFolderName;
+		String resourcesFolder = baseDir.getAbsolutePath() + "/" + resourcesFolderName;
 		String sqlFolder = webRootFolder + "/WEB-INF/sql";
 
 		File inputFile = new File(webRootFolder + "/WEB-INF/service.xml");
@@ -140,17 +140,19 @@ public class BuildService extends AbstractMojo {
 		}
 	}
 
+
 	public static boolean deleteQuietly(File file) {
 		if (file == null) {
 			return false;
 		}
-	
+
 		try {
 			return file.delete();
 		} catch (Exception e) {
 			return false;
 		}
-   }
+	}
+
 
 	public static void moveFile(File srcFile, File destFile) throws IOException {
 		if (srcFile == null) {
@@ -173,15 +175,12 @@ public class BuildService extends AbstractMojo {
 		}
 		boolean rename = srcFile.renameTo(destFile);
 		if (!rename) {
-			FileUtils.copyFile( srcFile, destFile );
+			FileUtils.copyFile(srcFile, destFile);
 			if (!srcFile.delete()) {
 				deleteQuietly(destFile);
-				throw new IOException("Failed to delete original file '" + srcFile +
-						"' after copy to '" + destFile + "'");
+				throw new IOException("Failed to delete original file '" + srcFile + "' after copy to '" + destFile + "'");
 			}
 		}
 	}
 
 }
-
-
