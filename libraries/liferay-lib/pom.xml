@@ -119,6 +119,7 @@
 							<artifactId>container</artifactId>
 							<version>2.1</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -133,6 +134,7 @@
 							<artifactId>jta</artifactId>
 							<version>1.1</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -147,6 +149,7 @@
 							<artifactId>kernel</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -161,6 +164,7 @@
 							<artifactId>service</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -175,6 +179,7 @@
 							<artifactId>portlet-container</artifactId>
 							<version>2.1</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -189,6 +194,7 @@
 							<artifactId>saw-api</artifactId>
 							<version>0.7</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>

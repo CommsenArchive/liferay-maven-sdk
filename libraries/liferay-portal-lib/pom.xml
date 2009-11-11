@@ -753,6 +753,7 @@
 							<artifactId>ant</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -769,6 +770,7 @@
 							<artifactId>antlr</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -785,6 +787,7 @@
 							<artifactId>aopalliance</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -801,6 +804,7 @@
 							<artifactId>asm-attrs</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -817,6 +821,7 @@
 							<artifactId>asm</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -833,6 +838,7 @@
 							<artifactId>aspectj-rt</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -849,6 +855,7 @@
 							<artifactId>aspectj-weaver</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -865,6 +872,7 @@
 							<artifactId>axis-ant</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -881,6 +889,7 @@
 							<artifactId>axis</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -897,6 +906,7 @@
 							<artifactId>backport-concurrent</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -913,6 +923,7 @@
 							<artifactId>bsf</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -929,6 +940,7 @@
 							<artifactId>burlap</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -945,6 +957,7 @@
 							<artifactId>c3p0</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -961,6 +974,7 @@
 							<artifactId>casclient</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -977,6 +991,7 @@
 							<artifactId>ccpp-ri</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -993,6 +1008,7 @@
 							<artifactId>cglib</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1009,6 +1025,7 @@
 							<artifactId>chardet</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1025,6 +1042,7 @@
 							<artifactId>commons-beanutils</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1041,6 +1059,7 @@
 							<artifactId>commons-codec</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1057,6 +1076,7 @@
 							<artifactId>commons-collections</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1075,6 +1095,7 @@
 							</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1091,6 +1112,7 @@
 							<artifactId>commons-dbcp</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1107,6 +1129,7 @@
 							<artifactId>commons-digester</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1123,6 +1146,7 @@
 							<artifactId>commons-discovery</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1139,6 +1163,7 @@
 							<artifactId>commons-email</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1155,6 +1180,7 @@
 							<artifactId>commons-fileupload</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1171,6 +1197,7 @@
 							<artifactId>commons-httpclient</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1187,6 +1214,7 @@
 							<artifactId>commons-id</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1203,6 +1231,7 @@
 							<artifactId>commons-io</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1219,6 +1248,7 @@
 							<artifactId>commons-lang</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1235,6 +1265,7 @@
 							<artifactId>commons-logging</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1251,6 +1282,7 @@
 							<artifactId>commons-math</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1267,6 +1299,7 @@
 							<artifactId>commons-pool</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1283,6 +1316,7 @@
 							<artifactId>commons-validator</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1299,6 +1333,7 @@
 							<artifactId>compass</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1315,6 +1350,7 @@
 							<artifactId>concurrent</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1331,6 +1367,7 @@
 							<artifactId>creolefilter</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1347,6 +1384,7 @@
 							<artifactId>crypt</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1363,6 +1401,7 @@
 							<artifactId>daim</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1379,6 +1418,7 @@
 							<artifactId>displaytag</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1395,6 +1435,7 @@
 							<artifactId>dom4j</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1411,6 +1452,7 @@
 							<artifactId>easyconf</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1427,6 +1469,7 @@
 							<artifactId>ecs</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1443,6 +1486,7 @@
 							<artifactId>ehcache</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1459,6 +1503,7 @@
 							<artifactId>freemarker</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1477,6 +1522,7 @@
 							</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1493,6 +1539,7 @@
 							<artifactId>friki</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1509,6 +1556,7 @@
 							<artifactId>gif89</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1525,6 +1573,7 @@
 							<artifactId>gt-coverage</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1541,6 +1590,7 @@
 							<artifactId>gt-metadata</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1557,6 +1607,7 @@
 							<artifactId>hessian</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1573,6 +1624,7 @@
 							<artifactId>hibernate3</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1589,6 +1641,7 @@
 							<artifactId>htmlparser</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1605,6 +1658,7 @@
 							<artifactId>ical4j</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1621,6 +1675,7 @@
 							<artifactId>icq</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1637,6 +1692,7 @@
 							<artifactId>jabsorb</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1653,6 +1709,7 @@
 							<artifactId>jackrabbit-api</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1669,6 +1726,7 @@
 							<artifactId>jackrabbit-core</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1687,6 +1745,7 @@
 							</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1705,6 +1764,7 @@
 							</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1721,6 +1781,7 @@
 							<artifactId>jackrabbit-spi</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1741,6 +1802,7 @@
 							</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1757,6 +1819,7 @@
 							<artifactId>jai_codec</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1773,6 +1836,7 @@
 							<artifactId>jai_core</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1789,6 +1853,7 @@
 							<artifactId>java-diff</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1805,6 +1870,7 @@
 							<artifactId>jaxen</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1821,6 +1887,7 @@
 							<artifactId>jaxrpc</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1837,6 +1904,7 @@
 							<artifactId>jazzy</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1853,6 +1921,7 @@
 							<artifactId>jcifs</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1869,6 +1938,7 @@
 							<artifactId>jcommon</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1885,6 +1955,7 @@
 							<artifactId>jcr</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1901,6 +1972,7 @@
 							<artifactId>jdom</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1917,6 +1989,7 @@
 							<artifactId>jena</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1933,6 +2006,7 @@
 							<artifactId>jericho-html</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1949,6 +2023,7 @@
 							<artifactId>jets3t</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1965,6 +2040,7 @@
 							<artifactId>jfreechart</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1981,6 +2057,7 @@
 							<artifactId>jgroups</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -1997,6 +2074,7 @@
 							<artifactId>jodconverter</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2013,6 +2091,7 @@
 							<artifactId>jrcs-diff</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2029,6 +2108,7 @@
 							<artifactId>jsonrpc</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2045,6 +2125,7 @@
 							<artifactId>jspwiki</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2061,6 +2142,7 @@
 							<artifactId>jsr107cache</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2077,6 +2159,7 @@
 							<artifactId>jstl-impl</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2093,6 +2176,7 @@
 							<artifactId>jstl</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2109,6 +2193,7 @@
 							<artifactId>juh</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2125,6 +2210,7 @@
 							<artifactId>jurt</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2141,6 +2227,7 @@
 							<artifactId>liferay-icu4j</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2157,6 +2244,7 @@
 							<artifactId>liferay-rhino</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2175,6 +2263,7 @@
 							</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2191,6 +2280,7 @@
 							<artifactId>log4j</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2207,6 +2297,7 @@
 							<artifactId>lucene-highlighter</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2223,6 +2314,7 @@
 							<artifactId>lucene</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2239,6 +2331,7 @@
 							<artifactId>mirage-api</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2255,6 +2348,7 @@
 							<artifactId>msnm</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2271,6 +2365,7 @@
 							<artifactId>nekohtml</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2287,6 +2382,7 @@
 							<artifactId>odmg</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2303,6 +2399,7 @@
 							<artifactId>openid4java</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2319,6 +2416,7 @@
 							<artifactId>openxri-client</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2335,6 +2433,7 @@
 							<artifactId>openxri-syntax</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2351,6 +2450,7 @@
 							<artifactId>oro</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2367,6 +2467,7 @@
 							<artifactId>oscache</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2383,6 +2484,7 @@
 							<artifactId>pdfbox</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2399,6 +2501,7 @@
 							<artifactId>poi-contrib</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2415,6 +2518,7 @@
 							<artifactId>poi</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2431,6 +2535,7 @@
 							<artifactId>poi-scratchpad</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2447,6 +2552,7 @@
 							<artifactId>portal-client</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2463,6 +2569,7 @@
 							<artifactId>portal-impl</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2479,6 +2586,7 @@
 							<artifactId>portals-bridges</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2495,6 +2603,7 @@
 							<artifactId>portletbridge-core</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2513,6 +2622,7 @@
 							</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2529,6 +2639,7 @@
 							<artifactId>quartz</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2545,6 +2656,7 @@
 							<artifactId>rdffilter</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2561,6 +2673,7 @@
 							<artifactId>ridl</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2577,6 +2690,7 @@
 							<artifactId>rome</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2593,6 +2707,7 @@
 							<artifactId>ruon-client</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2609,6 +2724,7 @@
 							<artifactId>saaj-api</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2625,6 +2741,7 @@
 							<artifactId>saaj-impl</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2641,6 +2758,7 @@
 							<artifactId>serializer</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2657,6 +2775,7 @@
 							<artifactId>simplecaptcha</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2673,6 +2792,7 @@
 							<artifactId>slf4j-api</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2689,6 +2809,7 @@
 							<artifactId>slf4j-log4j12</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2705,6 +2826,7 @@
 							<artifactId>soap</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2721,6 +2843,7 @@
 							<artifactId>spring</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2737,6 +2860,7 @@
 							<artifactId>spring-test</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2753,6 +2877,7 @@
 							<artifactId>spring-webmvc</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2769,6 +2894,7 @@
 							<artifactId>stax</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2785,6 +2911,7 @@
 							<artifactId>struts-el</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2801,6 +2928,7 @@
 							<artifactId>struts</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2817,6 +2945,7 @@
 							<artifactId>unoil</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2833,6 +2962,7 @@
 							<artifactId>urlrewrite</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2849,6 +2979,7 @@
 							<artifactId>util-bridges</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2865,6 +2996,7 @@
 							<artifactId>util-java</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2881,6 +3013,7 @@
 							<artifactId>util-taglib</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2897,6 +3030,7 @@
 							<artifactId>util-wsrp</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2913,6 +3047,7 @@
 							<artifactId>velocity</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2929,6 +3064,7 @@
 							<artifactId>velocity-tools</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2945,6 +3081,7 @@
 							<artifactId>wsdl4j</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2961,6 +3098,7 @@
 							<artifactId>wstx</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2977,6 +3115,7 @@
 							<artifactId>xalan</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -2993,6 +3132,7 @@
 							<artifactId>xbean-spring</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -3009,6 +3149,7 @@
 							<artifactId>xercesImpl</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -3025,6 +3166,7 @@
 							<artifactId>xml-apis</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -3041,6 +3183,7 @@
 							<artifactId>xmlsec</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -3057,6 +3200,7 @@
 							<artifactId>xpp3</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
@@ -3073,6 +3217,7 @@
 							<artifactId>xstream</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
 						</configuration>
 						<phase>install</phase>
 						<goals>
