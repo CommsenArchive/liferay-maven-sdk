@@ -48,6 +48,34 @@
 			</activation>
 		</profile>
 		<profile>
+			<id>translate</id>
+			<activation>
+				<property>
+					<name>translate</name>
+				</property>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>com.commsen.liferay</groupId>
+						<artifactId>liferay-maven-plugin</artifactId>
+						<executions>
+							<execution>
+								<phase>generate-sources</phase>
+								<goals>
+									<goal>translate</goal>
+								</goals>
+								<configuration>
+									<langDir>${basedir}/src/main/resources/content</langDir>
+									<langFile>Language</langFile>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
 			<id>build-service</id>
 			<activation>
 				<property>
