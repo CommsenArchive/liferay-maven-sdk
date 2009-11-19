@@ -66,7 +66,7 @@
 									<goal>translate</goal>
 								</goals>
 								<configuration>
-									<langDir>${basedir}/src/main/resources/content</langDir>
+									<langDir>${dollar}{basedir}/src/main/resources/content</langDir>
 									<langFile>Language</langFile>
 								</configuration>
 							</execution>

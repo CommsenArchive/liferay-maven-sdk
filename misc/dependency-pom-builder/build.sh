@@ -51,6 +51,7 @@ echo "		<groupId>com.commsen.liferay.portal.libraries</groupId>" >> $EXECUTIONS
 echo "		<artifactId>$dep_name</artifactId>" >> $EXECUTIONS
 echo "		<version>$LIFERAY_VERSION</version>" >> $EXECUTIONS
 echo "		<packaging>jar</packaging>" >> $EXECUTIONS
+echo "          <generatePom>true</generatePom>" >> $EXECUTIONS
 echo "	</configuration>" >> $EXECUTIONS
 echo "	<phase>install</phase>" >> $EXECUTIONS
 echo "	<goals>" >> $EXECUTIONS
