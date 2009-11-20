@@ -8,6 +8,21 @@
 	<packaging>pom</packaging>
 	<version>5.2.3-r2</version>
 	<name>Liferay SDK based on Maven2</name>
+
+        <repositories>
+                <repository>
+                    <id>jboss</id>
+                    <url>http://repository.jboss.com/maven2</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+        </repositories>
+
+
 	
 	<modules>
 		<module>libraries/liferay-portal-lib</module>

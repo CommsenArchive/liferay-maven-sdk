@@ -264,11 +264,18 @@
 			<artifactId>hessian</artifactId>
 			<version>5.2.3</version>
 		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>hibernate3</artifactId>
-			<version>5.2.3</version>
-		</dependency>
+<dependency>
+	<groupId>org.hibernate</groupId>
+	<artifactId>hibernate-distribution</artifactId>
+	<version>3.3.1.GA</version>
+	<type>pom</type>	
+	<exclusions>
+		<exclusion>
+			<groupId>org.jboss.cache</groupId>
+			<artifactId>jbosscache-core</artifactId>
+		</exclusion>
+	</exclusions> 
+</dependency>
 		<dependency>
 			<groupId>com.commsen.liferay.portal.libraries</groupId>
 			<artifactId>htmlparser</artifactId>
@@ -619,11 +626,11 @@
 			<artifactId>soap</artifactId>
 			<version>5.2.3</version>
 		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>spring</artifactId>
-			<version>5.2.3</version>
-		</dependency>
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring</artifactId>
+    <version>2.5.6</version>
+</dependency> 
 		<dependency>
 			<groupId>com.commsen.liferay.portal.libraries</groupId>
 			<artifactId>spring-test</artifactId>
@@ -699,11 +706,11 @@
 			<artifactId>wstx</artifactId>
 			<version>5.2.3</version>
 		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>xalan</artifactId>
-			<version>5.2.3</version>
-		</dependency>
+<dependency>
+    <groupId>xalan</groupId>
+    <artifactId>xalan</artifactId>
+    <version>2.7.0</version>
+</dependency> 
 		<dependency>
 			<groupId>com.commsen.liferay.portal.libraries</groupId>
 			<artifactId>xbean-spring</artifactId>
@@ -1331,23 +1338,6 @@
 								com.commsen.liferay.portal.libraries
 							</groupId>
 							<artifactId>hessian</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install hibernate3</id>
-						<configuration>
-							<file>lib/hibernate3.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>hibernate3</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
 							<generatePom>true</generatePom>
@@ -2560,23 +2550,6 @@
 						</goals>
 					</execution>
 					<execution>
-						<id>install spring</id>
-						<configuration>
-							<file>lib/spring.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>spring</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
 						<id>install spring-test</id>
 						<configuration>
 							<file>lib/spring-test.jar</file>
@@ -2822,23 +2795,6 @@
 								com.commsen.liferay.portal.libraries
 							</groupId>
 							<artifactId>wstx</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install xalan</id>
-						<configuration>
-							<file>lib/xalan.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>xalan</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
 							<generatePom>true</generatePom>
