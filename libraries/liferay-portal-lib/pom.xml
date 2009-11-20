@@ -1033,23 +1033,6 @@
 						</goals>
 					</execution>
 					<execution>
-						<id>install commons-collections</id>
-						<configuration>
-							<file>lib/commons-collections.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>commons-collections</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-						<execution>
 						<id>install commons-id</id>
 						<configuration>
 							<file>lib/commons-id.jar</file>
