@@ -94,91 +94,91 @@
 			<artifactId>chardet</artifactId>
 			<version>5.2.3</version>
 		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>commons-beanutils</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>commons-codec</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>commons-collections</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>commons-configuration</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>commons-dbcp</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>commons-digester</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>commons-discovery</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>commons-email</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>commons-fileupload</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>commons-httpclient</artifactId>
-			<version>5.2.3</version>
-		</dependency>
+<dependency>
+    <groupId>commons-beanutils</groupId>
+    <artifactId>commons-beanutils</artifactId>
+    <version>1.6</version>
+</dependency> 
+<dependency>
+    <groupId>commons-codec</groupId>
+    <artifactId>commons-codec</artifactId>
+    <version>1.3</version>
+</dependency> 
+<dependency>
+    <groupId>commons-collections</groupId>
+    <artifactId>commons-collections</artifactId>
+    <version>3.2.1</version>
+</dependency> 
+<dependency>
+    <groupId>commons-configuration</groupId>
+    <artifactId>commons-configuration</artifactId>
+    <version>1.5</version>
+</dependency> 
+<dependency>
+    <groupId>commons-dbcp</groupId>
+    <artifactId>commons-dbcp</artifactId>
+    <version>1.2.2</version>
+</dependency> 
+<dependency>
+    <groupId>commons-digester</groupId>
+    <artifactId>commons-digester</artifactId>
+    <version>1.8</version>
+</dependency> 
+<dependency>
+    <groupId>commons-discovery</groupId>
+    <artifactId>commons-discovery</artifactId>
+    <version>0.4</version>
+</dependency> 
+<dependency>
+    <groupId>commons-email</groupId>
+    <artifactId>commons-email</artifactId>
+    <version>1.1</version>
+</dependency> 
+<dependency>
+    <groupId>commons-fileupload</groupId>
+    <artifactId>commons-fileupload</artifactId>
+    <version>1.2.1</version>
+</dependency> 
+<dependency>
+    <groupId>commons-httpclient</groupId>
+    <artifactId>commons-httpclient</artifactId>
+    <version>3.1</version>
+</dependency> 
 		<dependency>
 			<groupId>com.commsen.liferay.portal.libraries</groupId>
 			<artifactId>commons-id</artifactId>
 			<version>5.2.3</version>
 		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>commons-io</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>commons-lang</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>commons-logging</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>commons-math</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>commons-pool</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>commons-validator</artifactId>
-			<version>5.2.3</version>
-		</dependency>
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>1.3.2</version>
+</dependency> 
+<dependency>
+    <groupId>commons-lang</groupId>
+    <artifactId>commons-lang</artifactId>
+    <version>2.3</version>
+</dependency> 
+<dependency>
+    <groupId>commons-logging</groupId>
+    <artifactId>commons-logging</artifactId>
+    <version>1.1.1</version>
+</dependency> 
+<dependency>
+    <groupId>commons-math</groupId>
+    <artifactId>commons-math</artifactId>
+    <version>1.2</version>
+</dependency> 
+<dependency>
+    <groupId>commons-pool</groupId>
+    <artifactId>commons-pool</artifactId>
+    <version>1.3</version>
+</dependency> 
+<dependency>
+    <groupId>commons-validator</groupId>
+    <artifactId>commons-validator</artifactId>
+    <version>1.3.1</version>
+</dependency> 
 		<dependency>
 			<groupId>com.commsen.liferay.portal.libraries</groupId>
 			<artifactId>compass</artifactId>
@@ -1033,40 +1033,6 @@
 						</goals>
 					</execution>
 					<execution>
-						<id>install commons-beanutils</id>
-						<configuration>
-							<file>lib/commons-beanutils.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>commons-beanutils</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install commons-codec</id>
-						<configuration>
-							<file>lib/commons-codec.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>commons-codec</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
 						<id>install commons-collections</id>
 						<configuration>
 							<file>lib/commons-collections.jar</file>
@@ -1083,128 +1049,7 @@
 							<goal>install-file</goal>
 						</goals>
 					</execution>
-					<execution>
-						<id>install commons-configuration</id>
-						<configuration>
-							<file>lib/commons-configuration.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>
-								commons-configuration
-							</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install commons-dbcp</id>
-						<configuration>
-							<file>lib/commons-dbcp.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>commons-dbcp</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install commons-digester</id>
-						<configuration>
-							<file>lib/commons-digester.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>commons-digester</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install commons-discovery</id>
-						<configuration>
-							<file>lib/commons-discovery.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>commons-discovery</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install commons-email</id>
-						<configuration>
-							<file>lib/commons-email.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>commons-email</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install commons-fileupload</id>
-						<configuration>
-							<file>lib/commons-fileupload.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>commons-fileupload</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install commons-httpclient</id>
-						<configuration>
-							<file>lib/commons-httpclient.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>commons-httpclient</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
+						<execution>
 						<id>install commons-id</id>
 						<configuration>
 							<file>lib/commons-id.jar</file>
@@ -1212,108 +1057,6 @@
 								com.commsen.liferay.portal.libraries
 							</groupId>
 							<artifactId>commons-id</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install commons-io</id>
-						<configuration>
-							<file>lib/commons-io.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>commons-io</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install commons-lang</id>
-						<configuration>
-							<file>lib/commons-lang.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>commons-lang</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install commons-logging</id>
-						<configuration>
-							<file>lib/commons-logging.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>commons-logging</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install commons-math</id>
-						<configuration>
-							<file>lib/commons-math.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>commons-math</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install commons-pool</id>
-						<configuration>
-							<file>lib/commons-pool.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>commons-pool</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install commons-validator</id>
-						<configuration>
-							<file>lib/commons-validator.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>commons-validator</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
 							<generatePom>true</generatePom>
