@@ -34,16 +34,16 @@
 			<artifactId>asm</artifactId>
 			<version>5.2.3</version>
 		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>aspectj-rt</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>aspectj-weaver</artifactId>
-			<version>5.2.3</version>
-		</dependency>
+<dependency>
+   <groupId>org.aspectj</groupId>
+   <artifactId>aspectjrt</artifactId>
+   <version>1.6.0</version>
+</dependency>
+<dependency>
+   <groupId>org.aspectj</groupId>
+   <artifactId>aspectjweaver</artifactId>
+   <version>1.6.0</version>
+</dependency>
 		<dependency>
 			<groupId>com.commsen.liferay.portal.libraries</groupId>
 			<artifactId>axis-ant</artifactId>
@@ -270,6 +270,7 @@
 	<version>3.3.1.GA</version>
 	<type>pom</type>	
 	<exclusions>
+		<!-- jbosscache-core has parent POM which does not exists in repository -->		
 		<exclusion>
 			<groupId>org.jboss.cache</groupId>
 			<artifactId>jbosscache-core</artifactId>
@@ -296,36 +297,36 @@
 			<artifactId>jabsorb</artifactId>
 			<version>5.2.3</version>
 		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>jackrabbit-api</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>jackrabbit-core</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>jackrabbit-jcr-commons</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>jackrabbit-spi-commons</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>jackrabbit-spi</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>jackrabbit-text-extractors</artifactId>
-			<version>5.2.3</version>
-		</dependency>
+<dependency>
+   <groupId>org.apache.jackrabbit</groupId>
+   <artifactId>jackrabbit-api</artifactId>
+   <version>1.5.0</version>
+</dependency>
+<dependency>
+   <groupId>org.apache.jackrabbit</groupId>
+   <artifactId>jackrabbit-core</artifactId>
+   <version>1.5.3</version>
+</dependency>
+<dependency>
+   <groupId>org.apache.jackrabbit</groupId>
+   <artifactId>jackrabbit-jcr-commons</artifactId>
+   <version>1.5.3</version>
+</dependency>
+<dependency>
+   <groupId>org.apache.jackrabbit</groupId>
+   <artifactId>jackrabbit-spi-commons</artifactId>
+   <version>1.5.0</version>
+</dependency>
+<dependency>
+   <groupId>org.apache.jackrabbit</groupId>
+   <artifactId>jackrabbit-spi</artifactId>
+   <version>1.5.0</version>
+</dependency>
+<dependency>
+   <groupId>org.apache.jackrabbit</groupId>
+   <artifactId>jackrabbit-text-extractors</artifactId>
+   <version>1.5.0</version>
+</dependency>
 		<dependency>
 			<groupId>com.commsen.liferay.portal.libraries</groupId>
 			<artifactId>jai_codec</artifactId>
@@ -396,11 +397,11 @@
 			<artifactId>jfreechart</artifactId>
 			<version>5.2.3</version>
 		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>jgroups</artifactId>
-			<version>5.2.3</version>
-		</dependency>
+<dependency>
+	<groupId>jgroups</groupId>
+	<artifactId>jgroups</artifactId>
+	<version>2.6.2</version>
+</dependency>
 		<dependency>
 			<groupId>com.commsen.liferay.portal.libraries</groupId>
 			<artifactId>jodconverter</artifactId>
@@ -826,40 +827,6 @@
 								com.commsen.liferay.portal.libraries
 							</groupId>
 							<artifactId>asm</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install aspectj-rt</id>
-						<configuration>
-							<file>lib/aspectj-rt.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>aspectj-rt</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install aspectj-weaver</id>
-						<configuration>
-							<file>lib/aspectj-weaver.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>aspectj-weaver</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
 							<generatePom>true</generatePom>
@@ -1416,116 +1383,6 @@
 						</goals>
 					</execution>
 					<execution>
-						<id>install jackrabbit-api</id>
-						<configuration>
-							<file>lib/jackrabbit-api.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>jackrabbit-api</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install jackrabbit-core</id>
-						<configuration>
-							<file>lib/jackrabbit-core.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>jackrabbit-core</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install jackrabbit-jcr-commons</id>
-						<configuration>
-							<file>lib/jackrabbit-jcr-commons.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>
-								jackrabbit-jcr-commons
-							</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install jackrabbit-spi-commons</id>
-						<configuration>
-							<file>lib/jackrabbit-spi-commons.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>
-								jackrabbit-spi-commons
-							</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install jackrabbit-spi</id>
-						<configuration>
-							<file>lib/jackrabbit-spi.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>jackrabbit-spi</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install jackrabbit-text-extractors</id>
-						<configuration>
-							<file>
-								lib/jackrabbit-text-extractors.jar
-							</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>
-								jackrabbit-text-extractors
-							</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
 						<id>install jai_codec</id>
 						<configuration>
 							<file>lib/jai_codec.jar</file>
@@ -1754,23 +1611,6 @@
 								com.commsen.liferay.portal.libraries
 							</groupId>
 							<artifactId>jfreechart</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install jgroups</id>
-						<configuration>
-							<file>lib/jgroups.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>jgroups</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
 							<generatePom>true</generatePom>
