@@ -69,11 +69,11 @@
 			<artifactId>burlap</artifactId>
 			<version>5.2.3</version>
 		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>c3p0</artifactId>
-			<version>5.2.3</version>
-		</dependency>
+<dependency>
+   <groupId>c3p0</groupId>
+   <artifactId>c3p0</artifactId>
+   <version>0.9.1.2</version>
+</dependency>
 		<dependency>
 			<groupId>com.commsen.liferay.portal.libraries</groupId>
 			<artifactId>casclient</artifactId>
@@ -229,11 +229,11 @@
 			<artifactId>ehcache</artifactId>
 			<version>5.2.3</version>
 		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>freemarker</artifactId>
-			<version>5.2.3</version>
-		</dependency>
+<dependency>
+    <groupId>org.freemarker</groupId>
+    <artifactId>freemarker</artifactId>
+    <version>2.3.12</version>
+</dependency> 
 		<dependency>
 			<groupId>com.commsen.liferay.portal.libraries</groupId>
 			<artifactId>freshcookies-security</artifactId>
@@ -332,11 +332,11 @@
 			<artifactId>jai_codec</artifactId>
 			<version>5.2.3</version>
 		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>jai_core</artifactId>
-			<version>5.2.3</version>
-		</dependency>
+<dependency>
+    <groupId>javax.media</groupId>
+    <artifactId>jai_core</artifactId>
+    <version>1.1.3</version>
+</dependency> 
 		<dependency>
 			<groupId>com.commsen.liferay.portal.libraries</groupId>
 			<artifactId>java-diff</artifactId>
@@ -467,16 +467,16 @@
 			<artifactId>log4j</artifactId>
 			<version>5.2.3</version>
 		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>lucene-highlighter</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>lucene</artifactId>
-			<version>5.2.3</version>
-		</dependency>
+<dependency>
+   <groupId>org.apache.lucene</groupId>
+   <artifactId>lucene-highlighter</artifactId>
+   <version>2.3.2</version>
+</dependency>
+<dependency>
+   <groupId>org.apache.lucene</groupId>
+   <artifactId>lucene-core</artifactId>
+   <version>2.3.2</version>
+</dependency>
 		<dependency>
 			<groupId>com.commsen.liferay.portal.libraries</groupId>
 			<artifactId>mirage-api</artifactId>
@@ -527,21 +527,21 @@
 			<artifactId>pdfbox</artifactId>
 			<version>5.2.3</version>
 		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>poi-contrib</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>poi</artifactId>
-			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>poi-scratchpad</artifactId>
-			<version>5.2.3</version>
-		</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-contrib</artifactId>
+    <version>3.2-FINAL</version>
+</dependency> 
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>3.2-FINAL</version>
+</dependency> 
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-scratchpad</artifactId>
+    <version>3.2-FINAL</version>
+</dependency> 
 		<dependency>
 			<groupId>com.commsen.liferay.portal.libraries</groupId>
 			<artifactId>portal-client</artifactId>
@@ -567,11 +567,11 @@
 			<artifactId>portletbridge-portlet</artifactId>
 			<version>5.2.3</version>
 		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>quartz</artifactId>
-			<version>5.2.3</version>
-		</dependency>
+<dependency>
+   <groupId>org.ow2.easybeans</groupId>
+   <artifactId>quartz</artifactId>
+   <version>1.6.0</version>
+</dependency>
 		<dependency>
 			<groupId>com.commsen.liferay.portal.libraries</groupId>
 			<artifactId>rdffilter</artifactId>
@@ -702,11 +702,11 @@
 			<artifactId>wsdl4j</artifactId>
 			<version>5.2.3</version>
 		</dependency>
-		<dependency>
-			<groupId>com.commsen.liferay.portal.libraries</groupId>
-			<artifactId>wstx</artifactId>
-			<version>5.2.3</version>
-		</dependency>
+<dependency>
+   <groupId>org.codehaus.woodstox</groupId>
+   <artifactId>wstx-lgpl</artifactId>
+   <version>3.2.4</version>
+</dependency>
 <dependency>
     <groupId>xalan</groupId>
     <artifactId>xalan</artifactId>
@@ -912,23 +912,6 @@
 								com.commsen.liferay.portal.libraries
 							</groupId>
 							<artifactId>burlap</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install c3p0</id>
-						<configuration>
-							<file>lib/c3p0.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>c3p0</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
 							<generatePom>true</generatePom>
@@ -1194,23 +1177,6 @@
 						</goals>
 					</execution>
 					<execution>
-						<id>install freemarker</id>
-						<configuration>
-							<file>lib/freemarker.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>freemarker</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
 						<id>install freshcookies-security</id>
 						<configuration>
 							<file>lib/freshcookies-security.jar</file>
@@ -1390,23 +1356,6 @@
 								com.commsen.liferay.portal.libraries
 							</groupId>
 							<artifactId>jai_codec</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install jai_core</id>
-						<configuration>
-							<file>lib/jai_core.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>jai_core</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
 							<generatePom>true</generatePom>
@@ -1844,40 +1793,6 @@
 						</goals>
 					</execution>
 					<execution>
-						<id>install lucene-highlighter</id>
-						<configuration>
-							<file>lib/lucene-highlighter.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>lucene-highlighter</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install lucene</id>
-						<configuration>
-							<file>lib/lucene.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>lucene</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
 						<id>install mirage-api</id>
 						<configuration>
 							<file>lib/mirage-api.jar</file>
@@ -2048,57 +1963,6 @@
 						</goals>
 					</execution>
 					<execution>
-						<id>install poi-contrib</id>
-						<configuration>
-							<file>lib/poi-contrib.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>poi-contrib</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install poi</id>
-						<configuration>
-							<file>lib/poi.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>poi</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install poi-scratchpad</id>
-						<configuration>
-							<file>lib/poi-scratchpad.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>poi-scratchpad</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
 						<id>install portal-client</id>
 						<configuration>
 							<file>lib/portal-client.jar</file>
@@ -2176,23 +2040,6 @@
 							<artifactId>
 								portletbridge-portlet
 							</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install quartz</id>
-						<configuration>
-							<file>lib/quartz.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>quartz</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
 							<generatePom>true</generatePom>
@@ -2618,23 +2465,6 @@
 								com.commsen.liferay.portal.libraries
 							</groupId>
 							<artifactId>wsdl4j</artifactId>
-							<version>5.2.3</version>
-							<packaging>jar</packaging>
-							<generatePom>true</generatePom>
-						</configuration>
-						<phase>install</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>install wstx</id>
-						<configuration>
-							<file>lib/wstx.jar</file>
-							<groupId>
-								com.commsen.liferay.portal.libraries
-							</groupId>
-							<artifactId>wstx</artifactId>
 							<version>5.2.3</version>
 							<packaging>jar</packaging>
 							<generatePom>true</generatePom>
