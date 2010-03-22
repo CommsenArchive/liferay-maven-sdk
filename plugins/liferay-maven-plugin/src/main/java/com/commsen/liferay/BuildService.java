@@ -19,6 +19,9 @@ package com.commsen.liferay;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.lang.reflect.Method;
+import java.net.URL;
+import java.net.URLClassLoader;
 import java.util.List;
 
 import org.apache.commons.io.FileUtils;
@@ -93,13 +96,11 @@ public class BuildService extends AbstractMojo {
 			getLog().warn("No service input file (" + inputFile.getAbsolutePath() + ") found! Skipping service API generation!");
 			return;
 		}
-
 		try {
 			FileUtils.forceMkdir(new File(sqlFolder));
 		} catch (IOException e) {
 			getLog().warn(e);
 		}
-
 		System.setProperty("external-properties", "com/liferay/portal/tools/dependencies/portal-tools.properties");
 		System.setProperty("org.apache.commons.logging.Log", "org.apache.commons.logging.impl.Log4JLogger");
 		System.setProperty("service.input.file", inputFile.getAbsolutePath());
@@ -121,15 +122,23 @@ public class BuildService extends AbstractMojo {
 		System.setProperty("service.bean.locator.util", "com.liferay.util.bean.PortletBeanLocatorUtil");
 		System.setProperty("service.props.util", "com.liferay.util.service.ServiceProps");
 		System.setProperty("service.plugin.name", mavenProject.getArtifactId());
+
+		try {
+			ClassLoader cl = getClass().getClassLoader();
+			Method method = URLClassLoader.class.getDeclaredMethod("addURL", URL.class);
+			method.setAccessible(true);
+			method.invoke(cl, new URL("file://" + resourcesFolder + "/"));
+		} catch (Exception e) {
+			throw new MojoExecutionException("Failed to modify classloader in order to add resource folder to classpath!", e);
+		}
+
 		ServiceBuilder.main(new String[0]);
 
 		if (serviceDependencies != null && !serviceDependencies.isEmpty()) {
 			List<Dependency> projectDependecies = mavenProject.getDependencies();
 			projectDependecies.addAll(serviceDependencies);
 		}
-
 		mavenProject.addCompileSourceRoot(srcServiceFolder);
-
 		File srcServiceProperties = new File(srcFolder, "service.properties");
 		File resServiceProperties = new File(resourcesFolder, "service.properties");
 		BuildService.deleteQuietly(resServiceProperties);
