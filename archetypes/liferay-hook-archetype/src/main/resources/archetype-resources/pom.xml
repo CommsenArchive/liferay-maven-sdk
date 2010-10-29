@@ -1,3 +1,4 @@
+#set( $dollar = '$' )
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -12,14 +13,14 @@
 		<dependency>
 			<groupId>com.commsen.liferay</groupId>
 			<artifactId>liferay-lib</artifactId>
-			<version>5.2.3</version>
+			<version>5.2.3-r3</version>
 			<scope>provided</scope>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.commsen.liferay</groupId>
 			<artifactId>liferay-sdk-lib</artifactId>
-			<version>5.2.3</version>
+			<version>5.2.3-r3</version>
 			<scope>provided</scope>
 			<type>pom</type>
 		</dependency>
@@ -45,7 +46,7 @@
 									<goal>translate</goal>
 								</goals>
 								<configuration>
-									<langDir>${basedir}/src/main/resources/content</langDir>
+									<langDir>${dollar}{basedir}/src/main/resources/content</langDir>
 									<langFile>Language</langFile>
 								</configuration>
 							</execution>

@@ -13,14 +13,14 @@
 		<dependency>
 			<groupId>com.commsen.liferay.theme</groupId>
 			<artifactId>_styled-liferay-theme</artifactId>
-			<version>5.2.3</version>
+			<version>5.2.3-r3</version>
 			<type>war</type>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.commsen.liferay.theme</groupId>
 			<artifactId>_unstyled-liferay-theme</artifactId>
-			<version>5.2.3</version>
+			<version>5.2.3-r3</version>
 			<type>war</type>
 			<scope>runtime</scope>
 		</dependency>
