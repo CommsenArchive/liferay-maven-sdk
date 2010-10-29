@@ -11,6 +11,6 @@
 	<parent>
 		<groupId>com.commsen.liferay</groupId>
 		<artifactId>liferay-maven-sdk</artifactId>
-		<version>5.2.3-r2</version>
+		<version>5.2.3-r3</version>
 	</parent>
 </project>
