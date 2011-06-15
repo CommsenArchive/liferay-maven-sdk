@@ -13,14 +13,14 @@
 		<dependency>
 			<groupId>com.commsen.liferay</groupId>
 			<artifactId>liferay-lib</artifactId>
-			<version>5.2.3-r3</version>
+			<version>5.2.3-r4</version>
 			<scope>provided</scope>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.commsen.liferay</groupId>
 			<artifactId>liferay-sdk-lib</artifactId>
-			<version>5.2.3-r3</version>
+			<version>5.2.3-r4</version>
 			<scope>provided</scope>
 			<type>pom</type>
 		</dependency>
