@@ -97,6 +97,7 @@
 		<groupId>com.commsen.liferay</groupId>
 		<artifactId>liferay-maven-sdk</artifactId>
 		<version>5.2.3-r3</version>
+		<relativePath>../../pom.xml</relativePath>
 	</parent>
 
 
