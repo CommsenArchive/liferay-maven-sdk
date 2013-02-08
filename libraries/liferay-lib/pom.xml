@@ -10,7 +10,7 @@
 	<repositories>
 		<repository>
 			<id>JBoss-maven2-repo</id>
-			<url>http://repository.jboss.com/maven2</url>
+			<url>https://repository.jboss.org/nexus/content/groups/public/</url>
 		</repository>
 	</repositories>
 
